@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Todo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="js-clock">
+        <h1>00:00</h1>
+        <h3 class="dday-timer"></h2>
+      </div>
+      <span class="js-weather"></span>
+      <form class="js-form form">
+        <input type="text" placeholder="이름이 뭐에요?">
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <div class="todo-container">
+        <h2>해야할일</h2>
+        <form class="js-toDoForm">
+          <input type="text" placeholder="해야할 일이 있으시면 이곳에 입력해주세요" />
+        </form>
+        <div>
+          <h3>Todo</h3>
+          <ul class="js-pending"></ul>
+        </div>
+        <div>
+          <h3>Finished</h3>
+          <ul class="js-finished"></ul>
+        </div>
+      </div>
+
+    </div>
+    <script src="src/index.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/time.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
